@@ -10,7 +10,7 @@ const Sidebar = ()=>(<>
     <div className='nav-bar'>
         <Link className='logo' to="/">
             <img src={LogoS} alt='logo'/>
-            <img src={LogoSubtitle} alt='logosub'/>
+            <img className="sub-logo" src={LogoSubtitle} alt='logosub'/>
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to={'/'}>
@@ -26,22 +26,22 @@ const Sidebar = ()=>(<>
         <ul>
             <li>
                 <a target='_blank' rel='noreferrer' href='http://www.lindedin.com/adeolaking'>
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4de" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                 </a>
             </li>
             <li>
                 <a target='_blank' rel='noreferrer' href='http://www.lindedin.com/adeolaking'>
-                    <FontAwesomeIcon icon={faGithub} color="#4d4de" />
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a>
             </li>
             <li>
                 <a target='_blank' rel='noreferrer' href='http://www.lindedin.com/adeolaking'>
-                    <FontAwesomeIcon icon={faYoutube} color="#4d4de" />
+                    <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
                 </a>
             </li>
             <li>
                 <a target='_blank' rel='noreferrer' href='http://www.lindedin.com/adeolaking'>
-                    <FontAwesomeIcon icon={faTwitter} color="#4d4de" />
+                    <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
                 </a>
             </li>
         
